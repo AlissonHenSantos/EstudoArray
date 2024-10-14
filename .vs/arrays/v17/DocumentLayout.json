@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alisson\\source\\repos\\arrays\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A549A38-89FF-4CD3-B31F-2BA1D30AA48A}|arrays\\arrays.csproj|c:\\users\\alisson\\source\\repos\\arrays\\arrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A549A38-89FF-4CD3-B31F-2BA1D30AA48A}|arrays\\arrays.csproj|solutionrelative:arrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A549A38-89FF-4CD3-B31F-2BA1D30AA48A}|arrays\\arrays.csproj|c:\\users\\alisson\\source\\repos\\arrays\\arrays\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A549A38-89FF-4CD3-B31F-2BA1D30AA48A}|arrays\\arrays.csproj|solutionrelative:arrays\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Biblioteca.cs",
+              "DocumentMoniker": "C:\\Users\\Alisson\\source\\repos\\arrays\\arrays\\Biblioteca.cs",
+              "RelativeDocumentMoniker": "arrays\\Biblioteca.cs",
+              "ToolTip": "C:\\Users\\Alisson\\source\\repos\\arrays\\arrays\\Biblioteca.cs",
+              "RelativeToolTip": "arrays\\Biblioteca.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T18:07:56.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Alisson\\source\\repos\\arrays\\arrays\\Program.cs",
+              "RelativeDocumentMoniker": "arrays\\Program.cs",
+              "ToolTip": "C:\\Users\\Alisson\\source\\repos\\arrays\\arrays\\Program.cs",
+              "RelativeToolTip": "arrays\\Program.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAuwA4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T16:53:48.867Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
