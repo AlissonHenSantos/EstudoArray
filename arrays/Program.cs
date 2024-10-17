@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using static arrays.Biblioteca;
 namespace arrays
 {
@@ -6,22 +7,10 @@ namespace arrays
     {
         static void Main(string[] args)
         {
-            int n;
-            Console.WriteLine("Tamanho do vetor:");
-            n = int.Parse(Console.ReadLine());
-            int[] arr = new int[n];
-            buildArray(arr);
-
-          
-          
-         
-           
             
-           
-
         }
 
-        static int somaVetor(int[] vetor)
+        static int somaVetor(int[] vetor) // exercicio 1
         {
             int soma = 0;
 
@@ -33,7 +22,7 @@ namespace arrays
             return soma;
         }
 
-        static int maior(int[] vetor)
+        static int maior(int[] vetor) //exercicio 2
         {
             int maior = 0;
 
@@ -47,7 +36,7 @@ namespace arrays
 
             return maior;
         }
-        static int menor(int[] vetor)
+        static int menor(int[] vetor) //exercicio 3
         {
             int menor = 0;
 
@@ -62,7 +51,7 @@ namespace arrays
             return menor;
         }
         
-        static int qntImpar(int[] vetor)
+        static int qntImpar(int[] vetor)// exercicio 4
         {
             int qnt = 0;
 
@@ -77,7 +66,7 @@ namespace arrays
             return qnt;
         }
 
-        static void multArray(int[] array1, int[] array2, int[] array3)
+        static void multArray(int[] array1, int[] array2, int[] array3)//exercicio 7
         {
             for(int i = 0; i < array1.Length; i++)
             {
@@ -92,7 +81,7 @@ namespace arrays
 
         }
 
-        static void reverse(int[] array) 
+        static void reverse(int[] array) // exercicio 8
         { 
             for(int i = array.Length - 1 ; i >= 0; i--)
             {
@@ -101,7 +90,7 @@ namespace arrays
         
         }
 
-        static void dado(int[] array)
+        static void dado(int[] array)// exercicio 10
         {
             int[] dado = { 0, 0, 0, 0, 0, 0 };
 
@@ -131,19 +120,97 @@ namespace arrays
 
         }
 
-        static string response(int[] array)
+        static string constaArray(int[] array) //exercicio 9
         {
             int chute = int.Parse(Console.ReadLine());
+            
             for (int i = 0; i < array.Length; i++)
             {
                 if (chute == array[i])
                 {
-                    return "O numero consta no vetor";
+                    showArray(array);
+                    return $"\n O numero consta no vetor ";
                 }
             }
 
             return "O número não está no vetor";
             
         }
+
+        static string sortArr(int[] array) // exercicio 6
+        {
+            int chute = int.Parse(Console.ReadLine());
+            for (int i = 0; i < array.Length; i++)
+            {
+                if(chute == array[i]){
+                    return $"Acertou. O elemento está no índice: {i}";
+                }
+            }
+            return "Errou";
+
+        }
+
+        static void dna() //exercicio5
+        {
+            char[] dna = new char[5];
+
+            for (int i = 0; i < dna.Length; i++)
+            {
+                dna[i] = char.Parse(Console.ReadLine());
+            }
+
+            char[] complementar = new char[dna.Length];
+            for (int i = 0; i < dna.Length; i++)
+            {
+                if (dna[i] == 'a')
+                {
+                    complementar[i] = 't';
+                } else if (dna[i] == 't')
+                {
+                    complementar[i]= 'a';
+                }else if (dna[i] == 'c')
+                {
+                    complementar[i] = 'g';
+                }else if (dna[i] == 'g')
+                {
+                    complementar[i] = 'c';
+                }
+            }
+
+            showArray(complementar);
+
+
+
+
+        }
+
+        static void notasCarnaval() //exercicio 12
+        {
+
+            double[] notas = new double[5];
+            double soma = 0, menor = 0, maior = 0; 
+
+            for (int i = 0; i < notas.Length; i++ )
+            {
+              
+                notas[i] = double.Parse(Console.ReadLine());
+                soma += notas[i];
+            }
+            
+            for(int i = 0; i < notas.Length; i++)
+            {
+                if(menor == 0 || notas[i] < menor)
+                {
+                    menor = notas[i];
+                }
+                if (notas[i] > maior)
+                {
+                    maior = notas[i];
+                }
+            }
+            Console.WriteLine(soma -= menor - maior);
+
+        }
+
     }
 }

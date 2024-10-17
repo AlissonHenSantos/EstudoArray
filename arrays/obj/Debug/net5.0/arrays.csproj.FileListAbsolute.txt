@@ -13,3 +13,4 @@ C:\Users\Alisson\source\repos\arrays\arrays\obj\Debug\net5.0\refint\arrays.dll
 C:\Users\Alisson\source\repos\arrays\arrays\obj\Debug\net5.0\arrays.pdb
 C:\Users\Alisson\source\repos\arrays\arrays\obj\Debug\net5.0\arrays.genruntimeconfig.cache
 C:\Users\Alisson\source\repos\arrays\arrays\obj\Debug\net5.0\ref\arrays.dll
+C:\Users\Alisson\source\repos\arrays\arrays\obj\Debug\net5.0\arrays.sourcelink.json

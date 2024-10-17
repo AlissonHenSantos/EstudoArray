@@ -55,6 +55,13 @@ namespace arrays
                 Console.Write($"| {vetor[i]} ");
             }
         }
+        public static void showArray(char[] vetor)
+        {
+            for (int i = 0; i < vetor.Length; i++)
+            {
+                Console.Write($"| {vetor[i]} ");
+            }
+        }
         public static void showArray(double[] vetor)
         {
             for (int i = 0; i < vetor.Length; i++)
