@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Alisson\\source\\repos\\arrays\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A549A38-89FF-4CD3-B31F-2BA1D30AA48A}|arrays\\arrays.csproj|c:\\users\\alisson\\source\\repos\\arrays\\arrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A549A38-89FF-4CD3-B31F-2BA1D30AA48A}|arrays\\arrays.csproj|solutionrelative:arrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A549A38-89FF-4CD3-B31F-2BA1D30AA48A}|arrays\\arrays.csproj|c:\\users\\alisson\\source\\repos\\arrays\\arrays\\matrizes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A549A38-89FF-4CD3-B31F-2BA1D30AA48A}|arrays\\arrays.csproj|solutionrelative:arrays\\matrizes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A549A38-89FF-4CD3-B31F-2BA1D30AA48A}|arrays\\arrays.csproj|c:\\users\\alisson\\source\\repos\\arrays\\arrays\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A549A38-89FF-4CD3-B31F-2BA1D30AA48A}|arrays\\arrays.csproj|solutionrelative:arrays\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A549A38-89FF-4CD3-B31F-2BA1D30AA48A}|arrays\\arrays.csproj|c:\\users\\alisson\\source\\repos\\arrays\\arrays\\bibliotecamatriz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A549A38-89FF-4CD3-B31F-2BA1D30AA48A}|arrays\\arrays.csproj|solutionrelative:arrays\\bibliotecamatriz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Biblioteca.cs",
-              "DocumentMoniker": "C:\\Users\\Alisson\\source\\repos\\arrays\\arrays\\Biblioteca.cs",
-              "RelativeDocumentMoniker": "arrays\\Biblioteca.cs",
-              "ToolTip": "C:\\Users\\Alisson\\source\\repos\\arrays\\arrays\\Biblioteca.cs",
-              "RelativeToolTip": "arrays\\Biblioteca.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwDgAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Matrizes.cs",
+              "DocumentMoniker": "C:\\Users\\Alisson\\source\\repos\\arrays\\arrays\\Matrizes.cs",
+              "RelativeDocumentMoniker": "arrays\\Matrizes.cs",
+              "ToolTip": "C:\\Users\\Alisson\\source\\repos\\arrays\\arrays\\Matrizes.cs",
+              "RelativeToolTip": "arrays\\Matrizes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T18:07:56.985Z",
+              "WhenOpened": "2024-11-06T19:00:30.484Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Alisson\\source\\repos\\arrays\\arrays\\Program.cs",
-              "RelativeDocumentMoniker": "arrays\\Program.cs",
-              "ToolTip": "C:\\Users\\Alisson\\source\\repos\\arrays\\arrays\\Program.cs",
-              "RelativeToolTip": "arrays\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BibliotecaMatriz.cs",
+              "DocumentMoniker": "C:\\Users\\Alisson\\source\\repos\\arrays\\arrays\\BibliotecaMatriz.cs",
+              "RelativeDocumentMoniker": "arrays\\BibliotecaMatriz.cs",
+              "ToolTip": "C:\\Users\\Alisson\\source\\repos\\arrays\\arrays\\BibliotecaMatriz.cs",
+              "RelativeToolTip": "arrays\\BibliotecaMatriz.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T16:53:48.867Z",
+              "WhenOpened": "2024-11-06T19:45:54.538Z",
               "EditorCaption": ""
             }
           ]
